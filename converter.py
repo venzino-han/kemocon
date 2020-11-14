@@ -47,10 +47,3 @@ def onehot_label(label, col):
     label['h'] = label[col]>3.0
     np_label = np.array(label[['l','m','h']])
     return np_label.astype('int32')
-
-
-
-
-
-
-
