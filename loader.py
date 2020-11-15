@@ -16,6 +16,14 @@ neuro_cols = ['timestamp', 'delta', 'lowAlpha', 'lowBeta', 'highAlpha','highBeta
 e4_cols = ['timestamp', 'x', 'y', 'z', 'value']
 label_cols = ['seconds','arousal','valence']
 
+'''
+불러올때 
+start / end 적용 
+'''
+
+
+
+
 # GET All file in dir
 def files_in_dir(root_dir):
     fileList = []
